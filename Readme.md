@@ -21,3 +21,6 @@ where `block.file.first().url` is a URL of PDF file, and `params` can have `widt
 ![Screenshot](Readme.png)
 
 \* CSS not included
+
+## License
+Copyright © 2015 [Mikhail Emelchenkov](https://mikhail.guru). Source code is distributed under [CDDL 1.0](https://tldrlegal.com/license/common-development-and-distribution-license-(cddl-1.0)-explained) open source license.

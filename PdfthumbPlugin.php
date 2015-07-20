@@ -49,7 +49,7 @@ class PdfthumbPlugin extends BasePlugin
     protected function defineSettings()
     {
         return array(
-            'cachePath' => array(AttributeType::String, 'default' => join('', array(DIRECTORY_SEPARATOR, 'resources', 'cache'))),
+            'cachePath' => array(AttributeType::String, 'default' => join(DIRECTORY_SEPARATOR, array('', 'resources', 'cache')))
         );
     }
     public function getSettingsHtml()

@@ -10,7 +10,7 @@ class PdfthumbPlugin extends BasePlugin
 
     function getVersion()
     {
-        return '1.0';
+        return '1.1';
     }
 
     function getDeveloper()
@@ -20,7 +20,7 @@ class PdfthumbPlugin extends BasePlugin
 
     function getDeveloperUrl()
     {
-        return 'http://mikhail.guru';
+        return 'https://www.Emelchenkov.pro';
     }
 
 	/**

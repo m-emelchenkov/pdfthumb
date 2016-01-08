@@ -24,6 +24,7 @@ class PdfthumbService extends BaseApplicationComponent
             $thumb = new Imagick();
             $thumb->setResolution(300, 300);
             $thumb->readImage($element->path . '[0]');  // Read only first page
+            $thumb = $thumb->flattenImages();
             $thumb->setImageFormat('jpg');  // Output format
             $thumb->setImageCompression(Imagick::COMPRESSION_JPEG);
             $thumb->setImageCompressionQuality(isset($params['quality']) ? $params['quality'] : 60);
@@ -31,7 +32,8 @@ class PdfthumbService extends BaseApplicationComponent
                 $thumb->resizeImage(isset($params['width']) ? $params['width'] : 0, 
                                     isset($params['height']) ? $params['height'] : 0,
                                     Imagick::FILTER_UNDEFINED,
-                                    1);
+                                    1
+                );
             }
             // Put result in the cache, get cache filename as a result
             $cacheUrl = $cache->put($thumb, $element);

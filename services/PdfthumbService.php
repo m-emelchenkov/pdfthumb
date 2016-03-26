@@ -24,7 +24,7 @@ class PdfthumbService extends BaseApplicationComponent
             $thumb = new Imagick();
             $thumb->setResolution(300, 300);
             $thumb->readImage($element->path . '[0]');  // Read only first page
-            $thumb = $thumb->flattenImages();
+            $thumb = $thumb->mergeImageLayers(Imagick::LAYERMETHOD_FLATTEN);
             $thumb->setImageFormat('jpg');  // Output format
             $thumb->setImageCompression(Imagick::COMPRESSION_JPEG);
             $thumb->setImageCompressionQuality(isset($params['quality']) ? $params['quality'] : 60);

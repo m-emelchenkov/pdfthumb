@@ -32,4 +32,4 @@ where `block.file.first().url` is a URL of PDF file, and `params` can have `widt
 I am looking for a maintainer for this project. 
 
 ## License
-Copyright © 2015 [Mikhail Emelchenkov](https://mikhail.guru). Source code is distributed under [CDDL 1.0](https://tldrlegal.com/license/common-development-and-distribution-license-(cddl-1.0)-explained) open source license.
+Copyright © 2015, 2016 [Mikhail Emelchenkov](https://www.Emelchenkov.pro). Source code is distributed under [CDDL 1.0](https://tldrlegal.com/license/common-development-and-distribution-license-(cddl-1.0)-explained) open source license.

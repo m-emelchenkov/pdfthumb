@@ -1,4 +1,4 @@
-# PDFThumb Craft plugin
+# PDFThumb plugin for Craft CMS
 
 Generate previews of PDF files.
 

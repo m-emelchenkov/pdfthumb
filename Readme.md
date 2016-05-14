@@ -24,12 +24,14 @@ where `block.file.first().url` is a URL of PDF file, and `params` can have `widt
 
 \* CSS not included
 
-## To-Do
+## Technical support
 
-* Support for multi-site setups.
-* Support for remote Assets URLs.
+- Commercial support, adaptation and custom development.  
+  [Get help](https://www.Emelchenkov.pro/Services) directly from project author.
+- Community support.  
+  You can submit questions, bug reports and feature requests to [issue tracker](https://github.com/m-emelchenkov/pdfthumb/issues). It's free, just no SLA guaranteed. [Pull requests](https://github.com/m-emelchenkov/pdfthumb/pulls) are welcome!
 
-I am looking for a maintainer for this project. 
+Looking for a project maintainer.
 
 ## License
-Copyright © 2015, 2016 [Mikhail Emelchenkov](https://www.Emelchenkov.pro). Source code is distributed under [CDDL 1.0](https://tldrlegal.com/license/common-development-and-distribution-license-(cddl-1.0)-explained) open source license.
+Copyright © 2015, 2016 [Mikhail Emelchenkov](https://www.Emelchenkov.pro). Source code is distributed under [CDDL 1.0](https://tldrlegal.com/license/common-development-and-distribution-license-\(cddl-1.0\)-explained) open source license.
